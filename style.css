@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*	請將first 裡的 jumbotron class 的高度設定為 50vh。*/
+#first .jumbotron{
+	
+
+	height: 50vh;
+	
+}
+
+
+/*	請將first 裡的 h1 標籤的文字顏色為 brown。*/
+#first h1{
+
+	/* C-6 */
+	color: brown;
+}
+
+#introfirst img
+{
+	
+	/* D-5 */
+	width: 300px;
+}
+#introsecond a{
+	text-decoration: none;
+	color:chocolate;
+}
+#introsecond {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+
+
+/*把摺頁裡的img都設定成圓角*/
+#accordionExample img{
+ border-radius: 25px;
+ width: 100px;
+}
+
+
+/*QA卡片格式大小設定*/
+.accordion{
+ max-width: 400px;
+ box-shadow:0 0 10px rgba(225,0,0,0.2);
+ border-radius: 5px;
+ overflow: hidden;
+ font-family: fantasy;
+}
+
+
+.bodybg{
+ color: aliceblue;
+ background-color: cornflowerblue;
+}
+
+/*問題二設定*/
+.bodybg2{
+ color: aliceblue;
+ background-color: cornflowerblue;
+}
+
+
+
+/*問題三設定*/
+.bodybg3{
+ color:blueviolet;
+ background-color:lightblue;
+ font-family: cursive;
+ tab-size:20px; 
+}
+
+.bodybg4{
+	color:blueviolet;
+	 background-color: cornflowerblue;
+}
+
+#location{
+padding-top: 100px;
+padding-left:100px
+}
+
+#QAsecond{
+padding-top: 100px;
+padding-left:100px
+}
